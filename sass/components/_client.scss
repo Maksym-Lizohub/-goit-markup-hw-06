@@ -1,0 +1,22 @@
+.client {
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 170px;
+    height: 92px;
+
+    color: $soc-icon-grey;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+  }
+
+  &__link {
+    color: currentColor;
+  }
+
+  &__icon {
+    fill: currentColor;
+  }
+}
