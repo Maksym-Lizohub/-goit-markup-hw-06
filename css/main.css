@@ -628,6 +628,7 @@ img {
 }
 
 .footer__social .social__link {
+  fill: white;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
