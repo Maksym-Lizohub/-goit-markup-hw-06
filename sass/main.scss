@@ -1,6 +1,7 @@
 @import 'base/common';
 @import 'base/container';
 @import 'utils/variables';
+@import 'components/checkbox';
 @import 'base/reset';
 @import 'utils/hidden';
 @import 'base/style';
@@ -15,6 +16,9 @@
 @import 'components/crew-card';
 @import 'components/sec-client';
 @import 'components/client';
+@import 'components/filter';
+@import 'components/sec-portfolio';
+@import 'components/project';
 @import 'components/footer';
 @import 'components/address';
 @import 'components/footer-soc';

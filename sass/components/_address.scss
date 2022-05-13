@@ -19,5 +19,11 @@
   &__email,
   &__tel {
     color: $text-grey-footer;
+    transform: color $transition;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
   }
 }

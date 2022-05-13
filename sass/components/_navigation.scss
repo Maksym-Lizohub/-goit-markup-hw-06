@@ -24,10 +24,36 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: $text-black;
+    transition: color $transition;
 
     &:focus,
     &:hover {
       color: $accent-color;
+
+      &::after {
+        position: absolute;
+        display: block;
+        content: '';
+        height: 4px;
+        width: 100%;
+        background-color: $accent-color;
+        border-radius: 2px;
+        opacity: 1;
+        transform: translateY(29px);
+      }
+    }
+
+    &::after {
+      position: absolute;
+      display: block;
+      content: '';
+      height: 4px;
+      width: 100%;
+      background-color: $accent-color;
+      border-radius: 2px;
+      opacity: 0;
+      transform: translateY(0px);
+      transition: transform $transition, opacity $transition;
     }
   }
 

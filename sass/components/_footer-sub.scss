@@ -58,6 +58,11 @@
     border: none;
     color: $white-color;
     transition: background-color $transition;
+
+    &:hover,
+    &:focus {
+      background-color: $button-hover;
+    }
   }
 
   &__icon {
