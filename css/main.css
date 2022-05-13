@@ -406,6 +406,10 @@ img {
   margin-left: auto;
 }
 
+.footer__submit {
+  margin-left: 93px;
+}
+
 .address {
   display: flex;
 }
@@ -429,6 +433,112 @@ img {
 
 .address__email, .address__tel {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.social {
+  flex-direction: column;
+}
+
+.social__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0px 0px 20px 0px;
+  color: white;
+}
+
+.footer__social .social__link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.submit__title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.submit__form {
+  display: flex;
+}
+
+.submit__input, .submit__input:focus {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+}
+
+.submit__input__input::placeholder, .submit__input:focus__input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+}
+
+.submit__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  padding: 10px 0;
+  margin-left: 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: #2196f3;
+  letter-spacing: 0.06em;
+  border: none;
+  color: white;
+  transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.submit__icon {
+  margin-left: 10px;
+  fill: white;
+}
+
+.social__list {
+  display: flex;
+  justify-content: center;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social__link {
+  display: flex;
+  box-sizing: content-box;
+  padding: 12px;
+  border-radius: 50%;
+  fill: #afb1b8;
+  background-color: transparent;
+  transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1), background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social__link:focus, .social__link:hover {
+  fill: white;
+  background-color: #2196f3;
 }
 
 .logo {
