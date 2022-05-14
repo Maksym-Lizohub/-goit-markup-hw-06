@@ -1,14 +1,16 @@
 body {
-    font-family: $main-font;
-    color: $text-black;
-    background-color: $white-color;
+  font-family: $main-font;
+  color: $text-black;
+  background-color: $white-color;
 }
 
 button {
-    cursor: pointer;
-    font-family: inherit;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 img {
-    display: block;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
